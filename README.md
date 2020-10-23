@@ -23,7 +23,7 @@ classifier用於訓練及實際測試
 
 
 1.先將一種物品放在拍攝區，用image_capture抓取影像，若是無法抓到可以將內部的canny參數調低
-
+![註解 2020-10-23 185029](https://user-images.githubusercontent.com/72076184/96995363-a9845d80-1560-11eb-82f0-1b11d018cf51.png)
 
 2.用dataset_tag將其標註，再將tag的sort加1，並刪除標記前的資料(有多種類別的物品就重複拍攝並標記)
 
