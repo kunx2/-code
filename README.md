@@ -28,7 +28,7 @@ classifier用於訓練及實際測試
 ![t](https://user-images.githubusercontent.com/72076184/96996406-63c89480-1562-11eb-9e0d-d1d3a492ee96.png)
 
 
-1.先將一種物品放在拍攝區，用image_capture抓取影像，若是無法抓到可以將內部的canny參數()、area閥值調低
+1.先將一種物品放在拍攝區，用image_capture抓取影像，若是無法抓到可以將內部的canny參數(ex:30,50)、area閥值調低
 
 
 ![hi](https://user-images.githubusercontent.com/72076184/96996986-75f70280-1563-11eb-958e-838cc32cbc7a.png)
