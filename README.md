@@ -28,10 +28,11 @@ classifier用於訓練及實際測試
 ![t](https://user-images.githubusercontent.com/72076184/96996406-63c89480-1562-11eb-9e0d-d1d3a492ee96.png)
 
 
-1.先將一種物品放在拍攝區，用image_capture抓取影像，若是無法抓到可以將內部的canny參數調低
+1.先將一種物品放在拍攝區，用image_capture抓取影像，若是無法抓到可以將內部的canny參數、area閥值調低
 
 
-![註解 2020-10-23 185029](https://user-images.githubusercontent.com/72076184/96995363-a9845d80-1560-11eb-82f0-1b11d018cf51.png)
+![hi](https://user-images.githubusercontent.com/72076184/96996986-75f70280-1563-11eb-958e-838cc32cbc7a.png)
+
 
 2.用dataset_tag將其標註，再將tag的sort加1，並刪除標記前的資料(在cap資料夾中)(有多種類別的物品就重複拍攝並標記)
 
@@ -45,4 +46,4 @@ classifier用於訓練及實際測試
 3.用training的程式訓練並測試(內部的網路架構及參數(學習率、bias等)可自行調整)
 
 
-同樣的若抓不到就將canny參數調低
+同樣，若抓不到就將canny參數、area閥值調低
