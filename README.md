@@ -26,7 +26,7 @@ classifier用於訓練及實際測試
 ![註解 2020-10-23 185029](https://user-images.githubusercontent.com/72076184/96995363-a9845d80-1560-11eb-82f0-1b11d018cf51.png)
 
 2.用dataset_tag將其標註，再將tag的sort加1，並刪除標記前的資料(有多種類別的物品就重複拍攝並標記)
-![2](https://user-images.githubusercontent.com/72076184/96995910-8c03c380-1561-11eb-982e-ad0e11d043bf.png)
+![註解 2020-10-23 185555](https://user-images.githubusercontent.com/72076184/96996024-bce3f880-1561-11eb-9337-c31e4574f084.png)
 
 
 (也可以用手動標記及擷取)
